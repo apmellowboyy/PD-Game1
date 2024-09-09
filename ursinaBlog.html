@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="blog.css">
+    <title>Time with Ursina</title>
+</head>
+<body>
+    
+    <style>
+
+    </style>
+    <h1>What is Ursina?</h1>
+    <p>Ursina is a Library usable with Python. You can use the library to create 2D and 3D games. I chose Ursina
+         For my 'Technical Blog' because of the simplicity. Creating characters, the playable environment, and functions 
+         for your game are easy to learn and master. I started learning on it during the last semester switch.  
+    </p>
+    <h1>How to use Ursina?</h1>
+    <p>Like all installs with python, open a terminal and input 'pip install ursina' </p>
+    <div class="container">
+
+        <img src="pipInstallUrsina.png" alt="pip">
+    </div>
+
+    <p>I already have Ursina installed, so instead of 'requirements already satisfied' you'll see downloads happening.</p>
+    <p>INSTALL CONTENTS</p>
+    <ul>
+        <li>panda-3d, panda-3d-gltf & panda3d-simplepbr>=0.6</li>
+        <li>pillow</li>
+        <li>pyperclip</li>
+        <li>screeninfo</li>
+    </ul>
+
+    <h1>Important Imports</h1>
+    <p>Just like importing random, time and sys with Python, Ursina needs to be imported.
+    An absolute necessity is 'from ursina import *' which imports the whole Ursina library.
+    If you like First Person games (like me) you can type 'from ursina.prefabs.first_person_controller import FirstPersonController'
+    </p>
+    <div class="container">
+        <img src="fromUrsinaImport.png" alt="pip">
+    </div>
+    <h1>Project</h1>
+    <p>For my first game I chose a simple alien defense game. The player chills at the bottom while spaceships fall in from the sky.
+        The goal is to hold of until the invaders decide to quit (Yes there is an end to the madness!) 
+    </p>
+    <h1>Gameplay Video</h1>
+    <div class="container">
+        <video controls autoplay loop muted width="800">
+            <source src="final.mp4" type="video/mp4">
+        </video>
+    </div>
+    <p>Below is the source code with comments, copy to your hearts content! Or at the bottom will be a link to this project on my Github. Just make sure you have Ursina installed for Python. Go up to 'How to use Ursina' for details.</p>
+    <div class="container">
+        <img src="sourceCode.png" alt="source">
+        <img src="sourceCode2.png" alt="source2">
+    </div>
+    <div class="container">
+        <img src="sourceCode3.png" alt="source3">
+    </div>
+    <div class = "link">
+    <a href="https://github.com/apmellowboyy/alienDefender---Blog-Game">Github Link</a>
+    </div>
+    <p>Lately I've been playing Chex Quest on my dos emulator and it's inspiring me to make an fps. Knowing fps controls I could take the shooting and enemy mechanics from this and put it in that. Or I could make a simple Pong clone haha. We shall see next time, thank you for coming through!</p>
+</body>
+</html>
